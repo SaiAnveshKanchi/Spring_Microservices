@@ -61,7 +61,7 @@ services:
     networks:
       - currency-network
 
-#docker run -p 9411:9411 openzipkin/zipkin:2.23
+#docker run -p 9411:9411 openzipkin/zipkin:2.23 (docker command)
 
   zipkin-server:
     image: openzipkin/zipkin:2.23
